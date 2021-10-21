@@ -30,7 +30,7 @@ setup(name='fdb',
     test_suite='nose.collector',
     #include_package_data=True,
     package_data={'': ['*.txt'],
-                  'test':'fbtest.fdb'},
+                  'test': ['fbtest.fdb']},
     #message_extractors={'fdb': [
             #('**.py', 'python', None),
             #('public/**', 'ignore', None)]},
